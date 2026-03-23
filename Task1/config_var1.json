@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "num_elements": 5
+    },
+    "thermal_characteristics": {
+        "heat_capacity": [900, 900, 900, 840, 520],
+        "emissivity": [0.05, 0.05, 0.05, 0.01, 0.1]
+    },
+    "thermal_connections": {
+        "12": 240,
+        "23": 240,
+        "34": 119,
+        "45": 10.5
+    },
+    "heat_sources": {
+        "Q1": 0,
+        "Q2": "A*(20 + 3*sin(t/4))",
+        "Q3": 0,
+        "Q4": 0,
+        "Q5": 0
+    },
+    "initial_temperatures": [100, 100, 100, 100, 100]
+}
